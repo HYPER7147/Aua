@@ -13,9 +13,9 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ll_NOBITA_BOT_DEVLOPER_ll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","lll_devil_venom_lll")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","momo_mbot")
+BOT_USERNAME = getenv("BOT_USERNAME","Aaru_Music_Ro_bot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -27,10 +27,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1001511253627))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002211725604))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7708051264))
+OWNER_ID = int(getenv("OWNER_ID", 7910002246))
 
 
 ## Fill these variables if you're deploying on heroku.
@@ -48,8 +48,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NOBITA_ALL_BOT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/NOBITA_SUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FEELING_SMILEY")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/FRIENSHIP_CLUB_GROUP")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -87,21 +87,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/9uused.webp"
+    "START_IMG_URL", "https://graph.org/file/1f44866af61158a0960d5-6f5494946bd2562cad.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/9uused.webp"
+    "PING_IMG_URL", "https://graph.org/file/9154b7067785c5d390df6-b6e323b83667ca7e8c.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/9uused.webp"
-STATS_IMG_URL = "https://files.catbox.moe/9uused.webp"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/9uused.webp"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/9uused.webp"
-STREAM_IMG_URL = "https://files.catbox.moe/9uused.webp"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/9uused.webp"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/9uused.webp"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/9uused.webp"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/9uused.webp"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/9uused.webp"
+PLAYLIST_IMG_URL = "https://graph.org/file/53b423328858b71475e19-c2d6c576e649ba1e61.jpg"
+STATS_IMG_URL = "https://graph.org/file/53b423328858b71475e19-c2d6c576e649ba1e61.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/53b423328858b71475e19-c2d6c576e649ba1e61.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/53b423328858b71475e19-c2d6c576e649ba1e61.jpg"
+STREAM_IMG_URL = "https://graph.org/file/53b423328858b71475e19-c2d6c576e649ba1e61.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/53b423328858b71475e19-c2d6c576e649ba1e61.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/53b423328858b71475e19-c2d6c576e649ba1e61.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/53b423328858b71475e19-c2d6c576e649ba1e61.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/53b423328858b71475e19-c2d6c576e649ba1e61.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/53b423328858b71475e19-c2d6c576e649ba1e61.jpg"
 
 
 def time_to_seconds(time):
